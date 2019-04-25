@@ -37,6 +37,10 @@ class ReduxStore<T>(reducer: (currentState: T?, action: Action) -> T) {
     }
 }
 
+class Action(val type: String, val content: Any) {
+    constructor(actionType: String) : this(actionType, Any())
+}
+
 fun <T> createStore(reducer: (currentState: T?, action: Action) -> T): ReduxStore<T> {
     return ReduxStore(reducer)
 }
