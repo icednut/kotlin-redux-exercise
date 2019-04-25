@@ -8,12 +8,12 @@ Redux의 이해를 위해 Redux를 Kotlin으로 구현하였습니다. Redux 학
 
 ## Build
 ```$xslt
-$ cd $PROJECT_HOME
+$ cd kotlin-redux-exercise
 $ ./gradlew clean build
 ```
 
 ## Test
 ```$xslt
-$ cd $PROJECT_HOME
+$ cd kotlin-redux-exercise
 $ ./gradlew clean test
 ```
